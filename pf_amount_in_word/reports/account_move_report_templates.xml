@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+    <template id="report_invoice_document_inherit_amount_to_words" inherit_id="l10n_in.l10n_in_report_invoice_document_inherit">
+        <xpath expr="//span[@t-field='o.amount_total_words']" position="after">
+                <span> only</span>
+         </xpath>
+    </template>
+</data>
+
+
+
