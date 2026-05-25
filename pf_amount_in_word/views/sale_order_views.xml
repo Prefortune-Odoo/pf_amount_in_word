@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+   
+    <record id="view_order_form_inherit_amount_to_words" model="ir.ui.view">
+        <field name="name">sale.order.form.inherit.amount.to.words</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='note_group']" position="after">
+                <div>
+                    <b style="margin-right:10px;">Amount In Words:</b>
+                    <field name="amount_in_words" readonly="1" force_save="1" />
+                     only
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>
