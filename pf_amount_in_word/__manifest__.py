@@ -18,7 +18,7 @@
     'maintainer': 'Prefortune Technologies LLP',
     "support": "odoo@prefortune.com",
     'currency': 'EUR',
-	'price': '',
+	'price': '0.00',
     'depends': ['sale', 'purchase', 'account'],
     'data': [
         'views/sale_order_views.xml',
